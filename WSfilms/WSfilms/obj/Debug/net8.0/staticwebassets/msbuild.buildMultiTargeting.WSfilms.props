@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WSfilms.props" />
+</Project>

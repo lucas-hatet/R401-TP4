@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WSfilms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb73689ec82b80a3c9d73e4450195da352203f2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b6ef28274815fddcf0fe9717d8869789a54c349")]
 [assembly: System.Reflection.AssemblyProductAttribute("WSfilms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WSfilms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

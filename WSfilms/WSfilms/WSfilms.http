@@ -1,0 +1,6 @@
+@WSfilms_HostAddress = http://localhost:5242
+
+GET {{WSfilms_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms\\APIfilms.csproj": {}
+    "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms\\APIfilms.csproj": {
+    "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms\\APIfilms.csproj",
+        "projectUniqueName": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
         "projectName": "APIfilms",
-        "projectPath": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms\\APIfilms.csproj",
+        "projectPath": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
         "packagesPath": "C:\\Users\\hatetl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms\\obj\\",
+        "outputPath": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

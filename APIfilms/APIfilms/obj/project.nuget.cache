@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z3EPCffDXP4=",
+  "dgSpecHash": "nCAXAABqmUg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms\\APIfilms.csproj",
+  "projectFilePath": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hatetl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\hatetl\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

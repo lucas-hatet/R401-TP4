@@ -29,7 +29,8 @@ namespace APIfilms.Controllers
         }
 
         // GET: api/Utilisateurs/5
-        [HttpGet("{id}")]
+        [HttpGet]
+        [Route("[action]/{id}")]
         [ActionName("GetId")]
         public async Task<ActionResult<Utilisateur>> GetUtilisateurById(int id)
         {
@@ -43,7 +44,8 @@ namespace APIfilms.Controllers
             return utilisateur;
         }
 
-        [HttpGet("{email}")]
+        [HttpGet]
+        [Route("[action]/{email}")]
         [ActionName("GetEmail")]
         public async Task<ActionResult<Utilisateur>> GetUtilisateurByEmail(string email)
         {

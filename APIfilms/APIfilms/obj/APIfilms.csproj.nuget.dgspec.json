@@ -11,7 +11,7 @@
         "projectName": "APIfilms",
         "projectPath": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
         "packagesPath": "C:\\Users\\hatetl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\obj\\",
+        "outputPath": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,7 +64,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[7.2.0, )"
             }
           },
           "imports": [

@@ -9,7 +9,10 @@ namespace APIfilms
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Remplacer ApplicationDbContext par FilmratingDbContext
+            // Ajouter les services nécessaires à Swagger
+            builder.Services.AddSwaggerGen();  // Ajouter cette ligne
+
+            // Configuration de la base de données
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -17,10 +20,20 @@ namespace APIfilms
 
             var app = builder.Build();
 
+            // Utiliser Swagger uniquement en mode développement
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();  // Utiliser Swagger
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+                    c.RoutePrefix = "swagger";  // Route pour Swagger UI
+                });
+            }
+
             app.MapControllers();
 
             app.Run();
-
         }
     }
 }

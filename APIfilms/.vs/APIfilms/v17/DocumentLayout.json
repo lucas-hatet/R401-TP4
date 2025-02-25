@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\models\\entityframework\\filmratingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\models\\entityframework\\filmratingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE9B1475-FF20-464B-9300-C88772C87103}|APIfilmsTests\\APIfilmsTests.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilmstests\\controller\\utilisateurstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE9B1475-FF20-464B-9300-C88772C87103}|APIfilmsTests\\APIfilmsTests.csproj|solutionrelative:apifilmstests\\controller\\utilisateurstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\models\\entityframework\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\models\\entityframework\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\models\\entityframework\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\models\\entityframework\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\models\\entityframework\\notation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\models\\entityframework\\notation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\hatetl\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\models\\entityframework\\filmratingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\models\\entityframework\\filmratingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,119 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "APIfilms\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Properties\\launchSettings.json",
-              "RelativeToolTip": "APIfilms\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-24T16:38:43.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "APIfilms\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "APIfilms\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T16:35:00.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Program.cs",
-              "RelativeDocumentMoniker": "APIfilms\\Program.cs",
-              "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Program.cs",
-              "RelativeToolTip": "APIfilms\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T16:19:30.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UtilisateursController.cs",
-              "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Controllers\\UtilisateursController.cs",
-              "RelativeDocumentMoniker": "APIfilms\\Controllers\\UtilisateursController.cs",
-              "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Controllers\\UtilisateursController.cs",
-              "RelativeToolTip": "APIfilms\\Controllers\\UtilisateursController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwAsAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T15:27:23.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "FilmRatingDBContext.cs",
               "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Models\\EntityFramework\\FilmRatingDBContext.cs",
               "RelativeDocumentMoniker": "APIfilms\\Models\\EntityFramework\\FilmRatingDBContext.cs",
               "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Models\\EntityFramework\\FilmRatingDBContext.cs",
               "RelativeToolTip": "APIfilms\\Models\\EntityFramework\\FilmRatingDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA2wBIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T13:41:48.704Z",
+              "WhenOpened": "2025-02-25T14:37:57.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Utilisateur.cs",
-              "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Models\\EntityFramework\\Utilisateur.cs",
-              "RelativeDocumentMoniker": "APIfilms\\Models\\EntityFramework\\Utilisateur.cs",
-              "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Models\\EntityFramework\\Utilisateur.cs",
-              "RelativeToolTip": "APIfilms\\Models\\EntityFramework\\Utilisateur.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "DocumentIndex": 1,
+              "Title": "UtilisateursController.cs",
+              "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Controllers\\UtilisateursController.cs",
+              "RelativeDocumentMoniker": "APIfilms\\Controllers\\UtilisateursController.cs",
+              "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Controllers\\UtilisateursController.cs",
+              "RelativeToolTip": "APIfilms\\Controllers\\UtilisateursController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwDEAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T13:41:51.796Z",
+              "WhenOpened": "2025-02-25T14:14:53.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\appsettings.json",
-              "RelativeDocumentMoniker": "APIfilms\\appsettings.json",
-              "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\appsettings.json",
-              "RelativeToolTip": "APIfilms\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-24T15:32:01.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Notation.cs",
-              "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Models\\EntityFramework\\Notation.cs",
-              "RelativeDocumentMoniker": "APIfilms\\Models\\EntityFramework\\Notation.cs",
-              "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Models\\EntityFramework\\Notation.cs",
-              "RelativeToolTip": "APIfilms\\Models\\EntityFramework\\Notation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "UtilisateursTests.cs",
+              "DocumentMoniker": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\Controller\\UtilisateursTests.cs",
+              "RelativeDocumentMoniker": "APIfilmsTests\\Controller\\UtilisateursTests.cs",
+              "ToolTip": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\Controller\\UtilisateursTests.cs",
+              "RelativeToolTip": "APIfilmsTests\\Controller\\UtilisateursTests.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAuwLwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T13:41:50.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Film.cs",
-              "DocumentMoniker": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Models\\EntityFramework\\Film.cs",
-              "RelativeDocumentMoniker": "APIfilms\\Models\\EntityFramework\\Film.cs",
-              "ToolTip": "C:\\Users\\hatetl\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Models\\EntityFramework\\Film.cs",
-              "RelativeToolTip": "APIfilms\\Models\\EntityFramework\\Film.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T13:41:43.326Z",
+              "WhenOpened": "2025-02-25T14:11:40.907Z",
               "EditorCaption": ""
             }
           ]

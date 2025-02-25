@@ -8,6 +8,11 @@ namespace APIfilms.Models
         public DbSet<Notation> Notations { get; set; }
         public DbSet<Utilisateur> Utilisateurs { get; set; }
 
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
+        {
+            
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql("Host=localhost;Database=DBfilms;Username=postgres;Password=postgres");

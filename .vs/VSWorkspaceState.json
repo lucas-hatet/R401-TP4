@@ -3,8 +3,9 @@
     "",
     "\\APIfilms",
     "\\APIfilms\\APIfilms",
-    "\\APIfilms\\APIfilms\\Controllers"
+    "\\APIfilms\\APIfilms\\Models",
+    "\\APIfilms\\APIfilms\\Models\\EntityFramework"
   ],
-  "SelectedNode": "\\APIfilms\\APIfilms\\Controllers\\UtilisateursController.cs",
+  "SelectedNode": "\\APIfilms\\APIfilms\\Models\\EntityFramework\\FilmRatingDBContext.cs",
   "PreviewInSolutionExplorer": false
 }

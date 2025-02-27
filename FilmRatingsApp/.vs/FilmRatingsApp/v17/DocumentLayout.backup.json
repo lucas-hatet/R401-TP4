@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF206D05-7AD0-45AA-ABB5-ABCF336A821E}|FilmRatingsApp\\FilmRatingsApp.csproj|c:\\users\\lcsha\\source\\repos\\lucas-hatet\\r401-tp4\\filmratingsapp\\filmratingsapp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{BF206D05-7AD0-45AA-ABB5-ABCF336A821E}|FilmRatingsApp\\FilmRatingsApp.csproj|solutionrelative:filmratingsapp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp\\README.md",
+              "RelativeDocumentMoniker": "FilmRatingsApp\\README.md",
+              "ToolTip": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp\\README.md",
+              "RelativeToolTip": "FilmRatingsApp\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-02-27T22:03:32.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

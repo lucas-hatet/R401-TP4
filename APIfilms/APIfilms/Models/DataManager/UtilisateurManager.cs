@@ -11,14 +11,18 @@ public class UtilisateurManager: IDataRepository<Utilisateur>
     {
         filmsDbContext = context;
     }
-    public ActionResult<IEnumerable<Utilisateur>> GetAllAsync()
+    public async Task<ActionResult<IEnumerable<Utilisateur>>> GetAllAsync()
     {
-        return filmsDbContext.Utilisateurs.ToList();
+        return await filmsDbContext.Utilisateurs.ToListAsync();
     }
-    public ActionResult<Utilisateur> GetByIdAsync(int id)
+
+
+    public async Task<ActionResult<Utilisateur>> GetByIdAsync(int id)
     {
-        return filmsDbContext.Utilisateurs.FirstOrDefault(u => u.UtilisateurId == id);
+        var utilisateur = await filmsDbContext.Utilisateurs.FirstOrDefaultAsync(u => u.UtilisateurId == id);
+        return utilisateur == null ? new NotFoundResult() : new ActionResult<Utilisateur>(utilisateur);
     }
+
     public async Task<ActionResult<Utilisateur>> GetByStringAsync(string mail)
     {
         return await filmsDbContext.Utilisateurs.FirstOrDefaultAsync(u => u.Mail.ToUpper() == mail.ToUpper());
@@ -28,7 +32,7 @@ public class UtilisateurManager: IDataRepository<Utilisateur>
         await filmsDbContext.Utilisateurs.AddAsync(entity);
         await filmsDbContext.SaveChangesAsync();
     }
-    public async Task Update(Utilisateur utilisateur, Utilisateur entity)
+    public async Task UpdateAsync(Utilisateur utilisateur, Utilisateur entity)
     {
         filmsDbContext.Entry(utilisateur).State = EntityState.Modified;
         utilisateur.UtilisateurId = entity.UtilisateurId;
@@ -44,11 +48,19 @@ public class UtilisateurManager: IDataRepository<Utilisateur>
         utilisateur.Pwd = entity.Pwd;
         utilisateur.Mobile = entity.Mobile;
         utilisateur.NotesUtilisateur = entity.NotesUtilisateur;
+
         await filmsDbContext.SaveChangesAsync();
     }
-    public async Task Delete(Utilisateur entity)
+
+    public async Task DeleteAsync(Utilisateur entity)
     {
+        if (entity == null)
+        {
+            throw new ArgumentNullException(nameof(entity), "L'utilisateur à supprimer ne peut pas être null.");
+        }
+
         filmsDbContext.Utilisateurs.Remove(entity);
         await filmsDbContext.SaveChangesAsync();
     }
+
 }

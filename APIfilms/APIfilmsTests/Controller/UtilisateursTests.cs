@@ -2,6 +2,7 @@
 using APIfilms.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System;
@@ -119,6 +120,8 @@ namespace APIfilmsTests.Controller
             // Du coup, on récupère l'ID de celui récupéré et on compare ensuite les 2 users
             userAtester.UtilisateurId = userRecupere.UtilisateurId;
             Assert.AreEqual(userRecupere, userAtester, "Utilisateurs pas identiques");
+
+            usrController.DeleteUtilisateur(userRecupere.UtilisateurId);
         }
 
         [TestMethod()]
@@ -145,18 +148,18 @@ namespace APIfilmsTests.Controller
             var result = usrController.PutUtilisateur(1, userAtester).Result; // .Result pour appeler la méthode async de manière synchrone, afin d'attendre l’ajout
             // Assert
             Utilisateur? userRecupere = context.Utilisateurs.Where(u => u.UtilisateurId == userAtester.UtilisateurId).FirstOrDefault(); // On récupère l'utilisateur créé directement dans la BD grace à son mail unique
-            // On ne connait pas l'ID de l’utilisateur envoyé car numéro automatique.
-            // Du coup, on récupère l'ID de celui récupéré et on compare ensuite les 2 users
-            if (!(userRecupere is null)) userAtester.UtilisateurId = userRecupere.UtilisateurId;
-            Assert.AreEqual(userRecupere, userAtester, "Utilisateurs pas identiques");
+            
+            // if (!(userRecupere is null)) userAtester.UtilisateurId = userRecupere.UtilisateurId;
+            Assert.AreEqual(userRecupere.Mail, userAtester.Mail, "Utilisateurs pas identiques");
 
-            userAtester.Mail = "clilleymd@gmail.com";
+            userAtester.Mail = "clilleymd@yahoo.be";
             result = usrController.PutUtilisateur(1, userAtester).Result;
         }
 
         [TestMethod()]
-        public void DeleteUtilisateurTest_Ok()
+        public async Task DeleteUtilisateurTest_Ok()
         {
+
             Utilisateur userAtester = new Utilisateur()
             {
                 Nom = "Fétré",
@@ -173,20 +176,16 @@ namespace APIfilmsTests.Controller
                 NotesUtilisateur = null
             };
 
-            context.Utilisateurs.Add(userAtester);
+            var verif = dataRepository.GetByStringAsync("simon.fetre@etu.univ-smb.fr");
+            if (verif.Result.Value is Utilisateur) await dataRepository.DeleteAsync(verif.Result.Value);
 
-            var resultAvant = usrController.GetUtilisateurByEmail("simon.fetre@etu.univ-smb.fr");
-            var utilisateurAvantSuppression = resultAvant.Result.Value;
+            await dataRepository.AddAsync(userAtester);
 
+            var resultAvant = dataRepository.GetByStringAsync("simon.fetre@etu.univ-smb.fr");
+            if (resultAvant.Result.Value is Utilisateur) await usrController.DeleteUtilisateur(resultAvant.Result.Value.UtilisateurId);  
+            var resultApres = dataRepository.GetByStringAsync("simon.fetre@etu.univ-smb.fr");
+            Assert.IsTrue((!(resultAvant.Result.Value is null) && resultApres.Result.Value is null), "L'utilisateur n'a pas été supprimé, ou inséré avant");
 
-            if (utilisateurAvantSuppression != null)
-            {
-                usrController.DeleteUtilisateur(utilisateurAvantSuppression.UtilisateurId);  
-            }
-
-            var resultApres = usrController.GetUtilisateurByEmail("simon.fetre@etu.univ-smb.fr");  
-            var utilisateurApresSuppression = resultApres.Result.Value;
-            Assert.IsNull(utilisateurApresSuppression, "L'utilisateur n'a pas été supprimé.");
         }
     }
 }

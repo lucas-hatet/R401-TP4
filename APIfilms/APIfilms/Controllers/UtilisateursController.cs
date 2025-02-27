@@ -53,7 +53,7 @@ namespace APIfilms.Controllers
         public async Task<ActionResult<Utilisateur>> GetUtilisateurByEmail(string email)
         {
             var utilisateur = await dataRepository.GetByStringAsync(email);
-            if (utilisateur == null)
+            if (utilisateur.Result is null)
             {
                 return NotFound();
             }

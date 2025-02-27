@@ -143,41 +143,11 @@ namespace APIfilmsTests.Controller
         }
 
         [TestMethod]
-        public void PutUtilisateurTest_Ok()
-        {
-            Utilisateur userAtester = new Utilisateur()
-            {
-                UtilisateurId = 1,
-                Nom = "Calida",
-                Prenom = "Lilley",
-                Mobile = "0653930778",
-                Mail = "clilleymd@gmail.com", // Modification de l'adresse mail
-                Pwd = "Toto12345678!",
-                Rue = "Impasse des bergeronnettes",
-                CodePostal = "74200",
-                Ville = "Allinges",
-                Pays = "France",
-                Latitude = (float)46.344795,
-                Longitude = (float)6.4885845,
-                NotesUtilisateur = null
-            };
-
-            // Act
-            var result = usrController.PutUtilisateur(1, userAtester).Result; // .Result pour appeler la méthode async de manière synchrone, afin d'attendre l’ajout
-            // Assert
-            Utilisateur? userRecupere = context.Utilisateurs.Where(u => u.UtilisateurId == userAtester.UtilisateurId).FirstOrDefault(); // On récupère l'utilisateur créé directement dans la BD grace à son mail unique
-            
-            // if (!(userRecupere is null)) userAtester.UtilisateurId = userRecupere.UtilisateurId;
-            Assert.AreEqual(userRecupere.Mail, userAtester.Mail, "Utilisateurs pas identiques");
-
-            userAtester.Mail = "clilleymd@yahoo.be";
-            result = usrController.PutUtilisateur(1, userAtester).Result;
-        }
-
-        [TestMethod]
-        public void PutUtilisateurTest_AvecMoq()
+        public void PutUtilisateurTest_AvecMoq_Ok()
         {
             // Arrange
+            Utilisateur? userAvant = context.Utilisateurs.Where(u => u.UtilisateurId == 1).FirstOrDefault(); // On récupère l'utilisateur créé directement dans la BD grace à son mail unique
+
             Utilisateur user = new Utilisateur
             {
                 UtilisateurId = 1,
@@ -198,12 +168,14 @@ namespace APIfilmsTests.Controller
             var userController = new UtilisateursController(mockRepository.Object);
             // Act
             var actionResult = userController.PutUtilisateur(1, user).Result;
+            Utilisateur? userApres = context.Utilisateurs.Where(u => u.UtilisateurId == 1).FirstOrDefault(); // On récupère l'utilisateur créé directement dans la BD grace à son mail unique
+
             // Assert
-            Assert.IsInstanceOfType(actionResult, typeof(NoContentResult), "Pas un NoContentResult"); // Test du type de retour
+            Assert.AreEqual(userAvant, userApres, "L'utilisateur n'a pas été modifié"); // Test du type de retour
         }
 
         [TestMethod]
-        public void DeleteUtilisateurTest_AvecMoq()
+        public void DeleteUtilisateurTest_AvecMoq_Ok()
         {
             // Arrange
             Utilisateur user = new Utilisateur

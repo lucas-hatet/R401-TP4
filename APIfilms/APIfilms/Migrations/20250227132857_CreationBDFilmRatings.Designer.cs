@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace APIfilms.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(FilmRatingsDBContext))]
     [Migration("20250227132857_CreationBDFilmRatings")]
     partial class CreationBDFilmRatings
     {

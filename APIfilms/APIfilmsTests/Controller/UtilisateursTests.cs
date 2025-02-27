@@ -17,16 +17,18 @@ namespace APIfilmsTests.Controller
     [TestClass()]
     public class UtilisateursTests
     {
+        private UtilisateurManager usrManager;
         private UtilisateursController usrController;
-        private ApplicationDbContext context;
+        private FilmRatingsDBContext context;
         private object expected, actual;
 
         [TestInitialize]
         public void TestInitialize()
         {
-            var builder = new DbContextOptionsBuilder<ApplicationDbContext>().UseNpgsql("Host=localhost;Database=DBfilms;Username=postgres;Password=postgres");
-            context = new ApplicationDbContext(builder.Options);
-            usrController = new UtilisateursController(context);
+            var builder = new DbContextOptionsBuilder<FilmRatingsDBContext>().UseNpgsql("Host=localhost;Database=DBfilms;Username=postgres;Password=postgres");
+            context = new FilmRatingsDBContext(builder.Options);
+            usrManager = new UtilisateurManager(context);
+            usrController = new UtilisateursController(usrManager);
         }
         
         [TestCleanup]

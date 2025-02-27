@@ -5,7 +5,12 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIfilms", "APIfilms\APIfilms.csproj", "{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIfilmsTests", "APIfilmsTests\APIfilmsTests.csproj", "{EE9B1475-FF20-464B-9300-C88772C87103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIfilmsTests", "APIfilmsTests\APIfilmsTests.csproj", "{EE9B1475-FF20-464B-9300-C88772C87103}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{2A398119-4A22-435F-9B06-C19F3D141922}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

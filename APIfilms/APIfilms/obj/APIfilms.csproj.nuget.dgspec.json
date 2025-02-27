@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {}
+    "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {
+    "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
+        "projectUniqueName": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
         "projectName": "APIfilms",
-        "projectPath": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
+        "projectPath": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
         "packagesPath": "C:\\Users\\lcsha\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\obj\\",
         "projectStyle": "PackageReference",

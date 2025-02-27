@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v1B+qWCnWys=",
+  "dgSpecHash": "f0IouRmlfpY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
+  "projectFilePath": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lcsha\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\lcsha\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

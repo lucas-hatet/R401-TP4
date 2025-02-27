@@ -701,3 +701,5 @@ C:\Users\lcsha\Source\Repos\lucas-hatet\R401-TP4\APIfilms\APIfilmsTests\obj\Debu
 C:\Users\lcsha\Source\Repos\lucas-hatet\R401-TP4\APIfilms\APIfilmsTests\obj\Debug\net8.0\APIfilmsTests.pdb
 C:\Users\lcsha\Source\Repos\lucas-hatet\R401-TP4\APIfilms\APIfilmsTests\obj\Debug\net8.0\APIfilmsTests.genruntimeconfig.cache
 C:\Users\lcsha\Source\Repos\lucas-hatet\R401-TP4\APIfilms\APIfilmsTests\obj\Debug\net8.0\ref\APIfilmsTests.dll
+C:\Users\lcsha\Source\Repos\lucas-hatet\R401-TP4\APIfilms\APIfilmsTests\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\lcsha\Source\Repos\lucas-hatet\R401-TP4\APIfilms\APIfilmsTests\bin\Debug\net8.0\Moq.dll

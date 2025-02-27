@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\APIfilms",
+    "\\APIfilms\\APIfilms",
     "\\APIfilms\\APIfilmsTests",
     "\\APIfilms\\APIfilmsTests\\Controller"
   ],
-  "SelectedNode": "\\APIfilms\\APIfilmsTests\\Controller\\UtilisateursTests.cs",
+  "SelectedNode": "\\APIfilms\\APIfilms\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

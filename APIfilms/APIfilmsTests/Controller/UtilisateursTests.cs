@@ -17,7 +17,7 @@ namespace APIfilmsTests.Controller
     [TestClass()]
     public class UtilisateursTests
     {
-        private UtilisateurManager usrManager;
+        private IDataRepository<Utilisateur> dataRepository;
         private UtilisateursController usrController;
         private FilmRatingsDBContext context;
         private object expected, actual;
@@ -27,8 +27,8 @@ namespace APIfilmsTests.Controller
         {
             var builder = new DbContextOptionsBuilder<FilmRatingsDBContext>().UseNpgsql("Host=localhost;Database=DBfilms;Username=postgres;Password=postgres");
             context = new FilmRatingsDBContext(builder.Options);
-            usrManager = new UtilisateurManager(context);
-            usrController = new UtilisateursController(usrManager);
+            dataRepository = new UtilisateurManager(context);
+            usrController = new UtilisateursController(dataRepository);
         }
         
         [TestCleanup]

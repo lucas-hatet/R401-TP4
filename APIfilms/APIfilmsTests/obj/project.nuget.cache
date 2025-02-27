@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I+7sqzLDX2E=",
+  "dgSpecHash": "48KcfrUtluo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj",
+  "projectFilePath": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lcsha\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\lcsha\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

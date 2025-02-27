@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|c:\\users\\lcsha\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilms\\controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02B82A5-36E9-41BF-AD20-A5E8FA043D62}|APIfilms\\APIfilms.csproj|solutionrelative:apifilms\\controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE9B1475-FF20-464B-9300-C88772C87103}|APIfilmsTests\\APIfilmsTests.csproj|c:\\users\\lcsha\\source\\repos\\lucas-hatet\\r401-tp4\\apifilms\\apifilmstests\\controller\\utilisateurstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE9B1475-FF20-464B-9300-C88772C87103}|APIfilmsTests\\APIfilmsTests.csproj|solutionrelative:apifilmstests\\controller\\utilisateurstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UtilisateursController.cs",
+              "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Controllers\\UtilisateursController.cs",
+              "RelativeDocumentMoniker": "APIfilms\\Controllers\\UtilisateursController.cs",
+              "ToolTip": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\Controllers\\UtilisateursController.cs",
+              "RelativeToolTip": "APIfilms\\Controllers\\UtilisateursController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T21:45:28.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UtilisateursTests.cs",
               "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\Controller\\UtilisateursTests.cs",
               "RelativeDocumentMoniker": "APIfilmsTests\\Controller\\UtilisateursTests.cs",
               "ToolTip": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\Controller\\UtilisateursTests.cs",
               "RelativeToolTip": "APIfilmsTests\\Controller\\UtilisateursTests.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAA6wFsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAewDsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T20:53:33.644Z",
               "EditorCaption": ""

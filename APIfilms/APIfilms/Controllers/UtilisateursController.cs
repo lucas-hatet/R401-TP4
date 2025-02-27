@@ -37,7 +37,7 @@ namespace APIfilms.Controllers
         {
             var utilisateur = dataRepository.GetByIdAsync(id);
 
-            if (utilisateur == null)
+            if (utilisateur.Result == null)
             {
                 return NotFound();
             }

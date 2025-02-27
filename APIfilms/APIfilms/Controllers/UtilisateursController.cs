@@ -24,7 +24,7 @@ namespace APIfilms.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Utilisateur>>> GetUtilisateurs()
         {
-            return dataRepository.GetAll();
+            return await dataRepository.GetAllAsync();
         }
 
         // GET: api/Utilisateurs/5
@@ -35,14 +35,14 @@ namespace APIfilms.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<Utilisateur>> GetUtilisateurById(int id)
         {
-            var utilisateur = dataRepository.GetById(id);
+            var utilisateur = dataRepository.GetByIdAsync(id);
 
             if (utilisateur == null)
             {
                 return NotFound();
             }
 
-            return utilisateur;
+            return await utilisateur;
         }
 
         [HttpGet]
@@ -52,13 +52,11 @@ namespace APIfilms.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<Utilisateur>> GetUtilisateurByEmail(string email)
         {
-            var utilisateur = dataRepository.GetByString(email);
-
+            var utilisateur = await dataRepository.GetByStringAsync(email);
             if (utilisateur == null)
             {
                 return NotFound();
             }
-
             return utilisateur;
         }
 
@@ -75,7 +73,7 @@ namespace APIfilms.Controllers
                 return BadRequest();
             }
 
-            var userToUpdate = dataRepository.GetById(id);
+            var userToUpdate = dataRepository.GetByIdAsync(id);
 
             if (userToUpdate == null)
             {
@@ -83,7 +81,7 @@ namespace APIfilms.Controllers
             }
             else
             {
-                dataRepository.Update(userToUpdate.Value, utilisateur);
+                await dataRepository.UpdateAsync(userToUpdate.Result.Value, utilisateur);
                 return NoContent();
             }
         }
@@ -99,7 +97,7 @@ namespace APIfilms.Controllers
             {
                 return BadRequest(ModelState);
             }
-            dataRepository.Add(utilisateur);
+            await dataRepository.AddAsync(utilisateur);
             return CreatedAtAction("GetById", new { id = utilisateur.UtilisateurId }, utilisateur); // GetById : nom de l’action
         }
 
@@ -109,12 +107,12 @@ namespace APIfilms.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> DeleteUtilisateur(int id)
         {
-            var utilisateur = dataRepository.GetById(id);
+            var utilisateur = dataRepository.GetByIdAsync(id);
             if (utilisateur == null)
             {
                 return NotFound();
             }
-            dataRepository.Delete(utilisateur.Value);
+            await dataRepository.DeleteAsync(utilisateur.Result.Value);
             return NoContent();
         }
 

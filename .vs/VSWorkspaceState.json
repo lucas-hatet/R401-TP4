@@ -4,8 +4,10 @@
     "\\APIfilms",
     "\\APIfilms\\APIfilms",
     "\\APIfilms\\APIfilmsTests",
-    "\\APIfilms\\APIfilmsTests\\Controller"
+    "\\APIfilms\\APIfilmsTests\\Controller",
+    "\\APIfilms\\APIfilms\\Models",
+    "\\APIfilms\\APIfilms\\Models\\DataManager"
   ],
-  "SelectedNode": "\\APIfilms\\APIfilms\\Program.cs",
+  "SelectedNode": "\\APIfilms\\APIfilms\\Models\\DataManager\\UtilisateurManager.cs",
   "PreviewInSolutionExplorer": false
 }

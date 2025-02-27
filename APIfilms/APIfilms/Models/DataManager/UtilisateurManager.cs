@@ -1,8 +1,9 @@
+using System.Runtime.CompilerServices;
 using APIfilms.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-public class UtilisateurManager : IDataRepository<Utilisateur>
+public class UtilisateurManager: IDataRepository<Utilisateur>
 {
     readonly FilmRatingsDBContext? filmsDbContext;
     public UtilisateurManager() { }
@@ -10,24 +11,24 @@ public class UtilisateurManager : IDataRepository<Utilisateur>
     {
         filmsDbContext = context;
     }
-    public ActionResult<IEnumerable<Utilisateur>> GetAll()
+    public ActionResult<IEnumerable<Utilisateur>> GetAllAsync()
     {
         return filmsDbContext.Utilisateurs.ToList();
     }
-    public ActionResult<Utilisateur> GetById(int id)
+    public ActionResult<Utilisateur> GetByIdAsync(int id)
     {
         return filmsDbContext.Utilisateurs.FirstOrDefault(u => u.UtilisateurId == id);
     }
-    public ActionResult<Utilisateur> GetByString(string mail)
+    public async Task<ActionResult<Utilisateur>> GetByStringAsync(string mail)
     {
-        return filmsDbContext.Utilisateurs.FirstOrDefault(u => u.Mail.ToUpper() == mail.ToUpper());
+        return await filmsDbContext.Utilisateurs.FirstOrDefaultAsync(u => u.Mail.ToUpper() == mail.ToUpper());
     }
-    public void Add(Utilisateur entity)
+    public async Task AddAsync(Utilisateur entity)
     {
-        filmsDbContext.Utilisateurs.Add(entity);
-        filmsDbContext.SaveChanges();
+        await filmsDbContext.Utilisateurs.AddAsync(entity);
+        await filmsDbContext.SaveChangesAsync();
     }
-    public void Update(Utilisateur utilisateur, Utilisateur entity)
+    public async Task Update(Utilisateur utilisateur, Utilisateur entity)
     {
         filmsDbContext.Entry(utilisateur).State = EntityState.Modified;
         utilisateur.UtilisateurId = entity.UtilisateurId;
@@ -43,11 +44,11 @@ public class UtilisateurManager : IDataRepository<Utilisateur>
         utilisateur.Pwd = entity.Pwd;
         utilisateur.Mobile = entity.Mobile;
         utilisateur.NotesUtilisateur = entity.NotesUtilisateur;
-        filmsDbContext.SaveChanges();
+        await filmsDbContext.SaveChangesAsync();
     }
-    public void Delete(Utilisateur utilisateur)
+    public async Task Delete(Utilisateur entity)
     {
-        filmsDbContext.Utilisateurs.Remove(utilisateur);
-        filmsDbContext.SaveChanges();
+        filmsDbContext.Utilisateurs.Remove(entity);
+        await filmsDbContext.SaveChangesAsync();
     }
 }

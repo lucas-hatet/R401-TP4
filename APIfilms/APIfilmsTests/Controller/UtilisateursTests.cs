@@ -85,7 +85,7 @@ namespace APIfilmsTests.Controller
             Assert.AreEqual(actual, expected);
         }
 
-        [TestMethod]
+        [TestMethod()]
         public void PostUtilisateurTest_Ok()
         {
             // Arrange
@@ -153,7 +153,7 @@ namespace APIfilmsTests.Controller
         }
 
         [TestMethod()]
-        public async void DeleteUtilisateurTest_Ok()
+        public void DeleteUtilisateurTest_Ok()
         {
             Utilisateur userAtester = new Utilisateur()
             {
@@ -170,24 +170,20 @@ namespace APIfilmsTests.Controller
                 Longitude = (float)0,
                 NotesUtilisateur = null
             };
-            // Créer un utilisateur dans la base de données en mémoire pour le test
-            await usrController.PostUtilisateur(userAtester);  // Utilisation d'await ici pour attendre que l'utilisateur soit créé
 
-            // Act - Vérification avant la suppression
-            var resultAvant = await usrController.GetUtilisateurByEmail("simon.fetre@etu.univ-smb.fr");  // Utilisation d'await pour récupérer l'utilisateur
-            var utilisateurAvantSuppression = resultAvant.Value;
+            context.Utilisateurs.Add(userAtester);
 
-            // Suppression de l'utilisateur
+            var resultAvant = usrController.GetUtilisateurByEmail("simon.fetre@etu.univ-smb.fr");
+            var utilisateurAvantSuppression = resultAvant.Result.Value;
+
+
             if (utilisateurAvantSuppression != null)
             {
-                await usrController.DeleteUtilisateur(utilisateurAvantSuppression.UtilisateurId);  // Utilisation d'await pour la suppression
+                usrController.DeleteUtilisateur(utilisateurAvantSuppression.UtilisateurId);  
             }
 
-            // Vérification après la suppression
-            var resultApres = await usrController.GetUtilisateurByEmail("simon.fetre@etu.univ-smb.fr");  // Utilisation d'await ici aussi
-            var utilisateurApresSuppression = resultApres.Value;
-
-            // Assert
+            var resultApres = usrController.GetUtilisateurByEmail("simon.fetre@etu.univ-smb.fr");  
+            var utilisateurApresSuppression = resultApres.Result.Value;
             Assert.IsNull(utilisateurApresSuppression, "L'utilisateur n'a pas été supprimé.");
         }
     }

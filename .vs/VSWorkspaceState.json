@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\APIfilms",
-    "\\APIfilms\\APIfilms",
-    "\\APIfilms\\APIfilms\\Models",
-    "\\APIfilms\\APIfilms\\Models\\EntityFramework"
+    "\\APIfilms\\APIfilmsTests",
+    "\\APIfilms\\APIfilmsTests\\Controller"
   ],
-  "SelectedNode": "\\APIfilms\\APIfilms\\Models\\EntityFramework\\FilmRatingDBContext.cs",
+  "SelectedNode": "\\APIfilms\\APIfilmsTests\\Controller\\UtilisateursTests.cs",
   "PreviewInSolutionExplorer": false
 }

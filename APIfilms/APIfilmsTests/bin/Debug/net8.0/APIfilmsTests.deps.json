@@ -2018,14 +2018,7 @@
           }
         }
       },
-      "System.Formats.Asn1/8.0.1": {
-        "runtime": {
-          "lib/net8.0/System.Formats.Asn1.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
-        }
-      },
+      "System.Formats.Asn1/8.0.1": {},
       "System.IO.Pipelines/9.0.1": {
         "runtime": {
           "lib/net8.0/System.IO.Pipelines.dll": {
@@ -2142,7 +2135,10 @@
           "Swashbuckle.AspNetCore": "7.2.0"
         },
         "runtime": {
-          "APIfilms.dll": {}
+          "APIfilms.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {

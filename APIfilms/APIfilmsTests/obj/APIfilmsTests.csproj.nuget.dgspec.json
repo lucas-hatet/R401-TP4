@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj": {}
+    "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj": {
+    "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj",
+        "projectUniqueName": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj",
         "projectName": "APIfilmsTests",
-        "projectPath": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj",
-        "packagesPath": "C:\\Users\\hatetl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\obj\\",
+        "projectPath": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\APIfilmsTests.csproj",
+        "packagesPath": "C:\\Users\\lcsha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilmsTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hatetl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\lcsha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {
-                "projectPath": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj"
+              "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {
+                "projectPath": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj"
               }
             }
           }
@@ -91,25 +86,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {
+    "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
+        "projectUniqueName": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
         "projectName": "APIfilms",
-        "projectPath": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
-        "packagesPath": "C:\\Users\\hatetl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hatetl\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\obj\\",
+        "projectPath": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\APIfilms.csproj",
+        "packagesPath": "C:\\Users\\lcsha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lcsha\\Source\\Repos\\lucas-hatet\\R401-TP4\\APIfilms\\APIfilms\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hatetl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\lcsha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,7 +108,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -177,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

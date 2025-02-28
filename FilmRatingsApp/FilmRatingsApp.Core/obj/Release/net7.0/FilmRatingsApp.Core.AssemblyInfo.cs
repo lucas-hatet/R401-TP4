@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmRatingsApp.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fa16af748b0db587e01139e687be3ab770309c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c49640a98f74fc3c2b4fd6b5644fa2cf9221a5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmRatingsApp.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmRatingsApp.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

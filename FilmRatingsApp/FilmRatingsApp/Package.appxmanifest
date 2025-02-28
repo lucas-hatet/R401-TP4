@@ -11,11 +11,11 @@
   IgnorableNamespaces="uap rescap genTemplate">
 
   <Identity
-    Name="00cb84a4-7c9c-4a96-b743-b74857c1fc5b"
+    Name="2eeaa667-8ae9-4fba-87dd-b7f1b443b17c"
     Publisher="CN=lcsha"
     Version="1.0.0.0" />
     
-  <mp:PhoneIdentity PhoneProductId="00cb84a4-7c9c-4a96-b743-b74857c1fc5b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="2eeaa667-8ae9-4fba-87dd-b7f1b443b17c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
   <Properties>
     <DisplayName>FilmRatingsApp</DisplayName>
@@ -47,13 +47,13 @@
       </uap:VisualElements>
       <Extensions>
           <desktop:Extension Category="windows.toastNotificationActivation">
-              <desktop:ToastNotificationActivation ToastActivatorCLSID="a627b17f-e98a-4c48-a288-e226895ce3e6" />
+              <desktop:ToastNotificationActivation ToastActivatorCLSID="e4bffd94-b714-449f-9d09-a502937e9af6" />
           </desktop:Extension>
 
           <com:Extension Category="windows.comServer">
               <com:ComServer>
                   <com:ExeServer Executable="FilmRatingsApp.exe" Arguments="----AppNotificationActivated:" DisplayName="Toast activator">
-                      <com:Class Id="a627b17f-e98a-4c48-a288-e226895ce3e6" DisplayName="Toast activator"/>
+                      <com:Class Id="e4bffd94-b714-449f-9d09-a502937e9af6" DisplayName="Toast activator"/>
                   </com:ExeServer>
               </com:ComServer>
           </com:Extension>

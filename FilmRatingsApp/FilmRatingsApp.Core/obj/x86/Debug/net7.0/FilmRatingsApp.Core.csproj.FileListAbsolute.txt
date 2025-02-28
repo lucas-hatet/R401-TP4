@@ -1,0 +1,13 @@
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\bin\x86\Debug\net7.0\FilmRatingsApp.Core.deps.json
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\bin\x86\Debug\net7.0\FilmRatingsApp.Core.dll
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\bin\x86\Debug\net7.0\FilmRatingsApp.Core.pdb
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\FilmRatingsApp.Core.csproj.AssemblyReference.cache
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\FilmRatingsApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\FilmRatingsApp.Core.AssemblyInfoInputs.cache
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\FilmRatingsApp.Core.AssemblyInfo.cs
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\FilmRatingsApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\FilmRatingsApp.Core.sourcelink.json
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\FilmRatingsApp.Core.dll
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\refint\FilmRatingsApp.Core.dll
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\FilmRatingsApp.Core.pdb
+C:\Users\lcsha\source\repos\lucas-hatet\R401-TP4\FilmRatingsApp\FilmRatingsApp.Core\obj\x86\Debug\net7.0\ref\FilmRatingsApp.Core.dll

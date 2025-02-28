@@ -31,7 +31,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FilmRatingsApp.Tests.MSTest",
+              "Title": "FilmRatingsApp.Tests.MSTest.csproj",
               "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp.Tests.MSTest\\FilmRatingsApp.Tests.MSTest.csproj",
               "RelativeDocumentMoniker": "FilmRatingsApp.Tests.MSTest\\FilmRatingsApp.Tests.MSTest.csproj",
               "ToolTip": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp.Tests.MSTest\\FilmRatingsApp.Tests.MSTest.csproj",
@@ -44,7 +44,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FilmRatingsApp.Core",
+              "Title": "FilmRatingsApp.Core.csproj",
               "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp.Core\\FilmRatingsApp.Core.csproj",
               "RelativeDocumentMoniker": "FilmRatingsApp.Core\\FilmRatingsApp.Core.csproj",
               "ToolTip": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp.Core\\FilmRatingsApp.Core.csproj",
@@ -57,7 +57,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FilmRatingsApp",
+              "Title": "FilmRatingsApp.csproj",
               "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp\\FilmRatingsApp.csproj",
               "RelativeDocumentMoniker": "FilmRatingsApp\\FilmRatingsApp.csproj",
               "ToolTip": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp\\FilmRatingsApp.csproj",
@@ -66,6 +66,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-28T05:38:08.233Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

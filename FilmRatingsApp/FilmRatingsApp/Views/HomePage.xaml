@@ -6,7 +6,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid x:Name="ContentArea">
-        
-    </Grid>
+    <RelativePanel>
+        <TextBlock x:Name="NomAppli" Text="Luco’s Best Movies"
+             RelativePanel.AlignHorizontalCenterWithPanel="True"
+             FontWeight="Bold" FontSize="32" Foreground="White"/>
+        <Image x:Name="logo" Source="https://play-lh.googleusercontent.com/IO3niAyss5tFXAQP176P0Jk5rg_A_hfKPNqzC4gb15WjLPjo5I-f7oIZ9Dqxw2wPBAg"
+            RelativePanel.Below="NomAppli"
+            RelativePanel.AlignHorizontalCenterWithPanel="True"
+            Margin="0, 50, 0, 0"/>
+    </RelativePanel>
 </Page>

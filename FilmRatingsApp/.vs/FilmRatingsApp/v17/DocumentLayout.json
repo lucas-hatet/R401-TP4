@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{20397842-D617-CBC7-3A1B-671D675456BE}|FilmRatingsApp\\FilmRatingsApp.csproj|c:\\users\\lcsha\\source\\repos\\lucas-hatet\\r401-tp4\\filmratingsapp\\filmratingsapp\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{20397842-D617-CBC7-3A1B-671D675456BE}|FilmRatingsApp\\FilmRatingsApp.csproj|solutionrelative:filmratingsapp\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20397842-D617-CBC7-3A1B-671D675456BE}|FilmRatingsApp\\FilmRatingsApp.csproj|c:\\users\\lcsha\\source\\repos\\lucas-hatet\\r401-tp4\\filmratingsapp\\filmratingsapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{20397842-D617-CBC7-3A1B-671D675456BE}|FilmRatingsApp\\FilmRatingsApp.csproj|solutionrelative:filmratingsapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{20397842-D617-CBC7-3A1B-671D675456BE}|FilmRatingsApp\\FilmRatingsApp.csproj|c:\\users\\lcsha\\source\\repos\\lucas-hatet\\r401-tp4\\filmratingsapp\\filmratingsapp\\filmratingsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{20397842-D617-CBC7-3A1B-671D675456BE}|FilmRatingsApp\\FilmRatingsApp.csproj|solutionrelative:filmratingsapp\\filmratingsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +38,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "FilmRatingsApp\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp\\Views\\HomePage.xaml",
+              "RelativeToolTip": "FilmRatingsApp\\Views\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-28T05:51:02.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FilmRatingsApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp\\MainWindow.xaml",
+              "RelativeToolTip": "FilmRatingsApp\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-28T05:50:39.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FilmRatingsApp.Tests.MSTest.csproj",
               "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp.Tests.MSTest\\FilmRatingsApp.Tests.MSTest.csproj",
               "RelativeDocumentMoniker": "FilmRatingsApp.Tests.MSTest\\FilmRatingsApp.Tests.MSTest.csproj",
@@ -43,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FilmRatingsApp.Core.csproj",
               "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp.Core\\FilmRatingsApp.Core.csproj",
               "RelativeDocumentMoniker": "FilmRatingsApp.Core\\FilmRatingsApp.Core.csproj",
@@ -56,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FilmRatingsApp.csproj",
               "DocumentMoniker": "C:\\Users\\lcsha\\source\\repos\\lucas-hatet\\R401-TP4\\FilmRatingsApp\\FilmRatingsApp\\FilmRatingsApp.csproj",
               "RelativeDocumentMoniker": "FilmRatingsApp\\FilmRatingsApp.csproj",
@@ -66,10 +100,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-28T05:38:08.233Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

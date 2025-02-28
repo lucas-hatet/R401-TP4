@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmRatingsApp.Tests.MSTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c49640a98f74fc3c2b4fd6b5644fa2cf9221a5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce45919d1550683261e2af72a39b75b6d02ac215")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmRatingsApp.Tests.MSTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmRatingsApp.Tests.MSTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
